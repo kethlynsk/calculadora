@@ -17,3 +17,4 @@ let mAdicao = require("./1adicao");
 let mSubtracao = require("./2subtracao")
 let mMultiplicacao = require("./3multiplicacao")
 let mDivisao = require("./4divisao")
+let mPorcentagem = require("./5porcentagem")
