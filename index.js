@@ -16,3 +16,4 @@ if(operacao != 1 && operacao != 2 && operacao != 3 && operacao != 4 && operacao 
 let mAdicao = require("./1adicao");
 let mSubtracao = require("./2subtracao")
 let mMultiplicacao = require("./3multiplicacao")
+let mDivisao = require("./4divisao")
