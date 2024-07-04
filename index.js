@@ -14,3 +14,4 @@ if(operacao != 1 && operacao != 2 && operacao != 3 && operacao != 4 && operacao 
     num2 = +prompt("Digite o segundo número: ")
 }
 let mAdicao = require("./1adicao");
+let mSubtracao = require("./2subtracao")
