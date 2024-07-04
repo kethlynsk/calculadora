@@ -18,3 +18,27 @@ let mSubtracao = require("./2subtracao")
 let mMultiplicacao = require("./3multiplicacao")
 let mDivisao = require("./4divisao")
 let mPorcentagem = require("./5porcentagem")
+
+if(isNaN(num1) || isNaN(num2)){
+    console.log("Não entendi. Digite números.")
+}else{
+
+switch (operacao) {
+    case 1:
+        console.log(`${num1} + ${num2} =`, mAdicao(num1, num2))
+        break;
+    case 2:
+        console.log(`${num1} - ${num2} =`, mSubtracao(num1, num2))
+        break
+    case 3:
+        console.log(`${num1} * ${num2} =`, mMultiplicacao(num1, num2))
+        break
+    case 4:
+        console.log(`${num1} / ${num2} =`, mDivisao(num1, num2))
+        break
+    case 5:
+        console.log(`${num1} % ${num2} =`, mPorcentagem(num1, num2))
+        break
+    default:
+        break;
+}}
